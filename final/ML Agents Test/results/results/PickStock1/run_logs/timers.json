@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1669951692",
+        "python_version": "3.7.13 (default, Sep  1 2022, 13:00:46) \n[Clang 13.0.0 (clang-1300.0.29.3)]",
+        "command_line_arguments": "/Users/j_maslak/Desktop/Fall Research 2022/ML Agents Test/venv/bin/mlagents-learn --run-id=PickStock1 --force",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1669951692"
+    },
+    "total": 0.053052549000000004,
+    "count": 1,
+    "self": 0.00889433999999989,
+    "children": {
+        "run_training.setup": {
+            "total": 0.03170573500000007,
+            "count": 1,
+            "self": 0.03170573500000007
+        },
+        "TrainerController.start_learning": {
+            "total": 0.012452474000000047,
+            "count": 1,
+            "self": 0.00014391900000010338,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 0.012258592000000013,
+                    "count": 1,
+                    "self": 0.012258592000000013
+                },
+                "TrainerController._save_models": {
+                    "total": 4.99629999999307e-05,
+                    "count": 1,
+                    "self": 4.99629999999307e-05
+                }
+            }
+        }
+    }
+}

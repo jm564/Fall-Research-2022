@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1662613785",
+        "python_version": "3.7.13 (default, Sep  1 2022, 13:00:46) \n[Clang 13.0.0 (clang-1300.0.29.3)]",
+        "command_line_arguments": "/Users/j_maslak/Desktop/Fall Research 2022/ML Agents Test/venv/bin/mlagents-learn --resume",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1662613795"
+    },
+    "total": 10.028784681000001,
+    "count": 1,
+    "self": 0.013290674000002056,
+    "children": {
+        "run_training.setup": {
+            "total": 0.03359841500000016,
+            "count": 1,
+            "self": 0.03359841500000016
+        },
+        "TrainerController.start_learning": {
+            "total": 9.981895591999999,
+            "count": 1,
+            "self": 0.00014561999999962438,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 9.865719152999999,
+                    "count": 1,
+                    "self": 9.865719152999999
+                },
+                "trainer_threads": {
+                    "total": 1.5030000000137989e-06,
+                    "count": 1,
+                    "self": 1.5030000000137989e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.11602931600000055,
+                    "count": 1,
+                    "self": 0.0010339130000005525,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.114995403,
+                            "count": 1,
+                            "self": 0.114995403
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

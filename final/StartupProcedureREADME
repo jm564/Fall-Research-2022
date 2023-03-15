@@ -1,0 +1,13 @@
+# Startup steps to begin running arm
+# Start MQTT server, confirm IP of server update in configs for
+
+# Start server to Host Model in ORBall/web_model
+http-server -c1
+
+# Run the unity project configure for inference
+
+# Run the esp32 arm startup
+
+# Run the camera startup
+
+# Run arm initializer 
