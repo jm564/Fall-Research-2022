@@ -17,6 +17,6 @@ BOM:
   - A fully autonomous inverse kinematics solver using a cnn model trained via reinforcement learning in Unity ML Agents
   - A mqtt broker service to facilitate communication between Unity and the ESP 32
   - ESP32 controller bits and pieces:
-    - arm controller to control the physical arm
+    - arm controller for the 6DOF arm
     - simple web server to transmit camera data
   - python script to detect objects from the esp32 camera data
