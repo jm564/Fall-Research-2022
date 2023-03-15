@@ -15,6 +15,7 @@ BOM:
 
  final:
   - A fully autonomous inverse kinematics solver using a cnn model trained via reinforcement learning in Unity ML Agents
+  - A simulation in Unity to render object in relation to the arm and the arms current position
   - A mqtt broker service to facilitate communication between Unity and the ESP 32
   - ESP32 controller bits and pieces:
     - arm controller for the 6DOF arm
