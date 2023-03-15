@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stepper Motor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+<div class="topnav">
+    <h1>Stepper Motor Control <i class="fas fa-cogs"></i></h1>
+</div>
+<div class="content">
+    <form>
+        <label for="axis">Axis:</label>
+        <input type="number" id="axis" name="axis">
+        <label for="steps">Number of steps:</label>
+        <input type="number" id="steps" name="steps">
+        <label for="direction">Direction:</label>
+        <input type="text" id="direction" name="direction">
+    </form>
+    <button onclick="submitForm()">GO!</button>
+    <p>Motor state: <span id="motor-state">Stopped</span></p>
+    <p><i id="gear" class="fas fa-cog"></i> </p>
+
+</div>
+</body>
+<script src="script.js"></script>
+</html>
